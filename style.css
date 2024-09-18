@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #ffffff;
+    --cor-secundaria: #fc5656;
+    --cor-destaque: #d82d2d;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-principal);
+    background-color: rgb(41, 41, 41);
+}
+
+.card{
+    background-color: rgb(90, 90, 90);
+    color: white;
+}
+
+.projetotitle{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn.btn-link {
+    color: rgb(129, 129, 255);
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal)
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+.contatolist {
+    text-align: center;
+   
+}
+
+.textofinal {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 80%;
+    color: gray;
+}
