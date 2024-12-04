@@ -3,7 +3,7 @@
 :root {
     --cor-principal: #ffffff;
     --cor-secundaria: #fc5656;
-    --cor-destaque: #d82d2d;
+    --cor-destaque: #ed3535;
 
 }
 
@@ -59,6 +59,11 @@ h1, h2, h5 {
 .lead, .btn-link {
     color: var(--cor-destaque);
     font-weight: 700;
+}
+
+.lead {
+    font-size: 32px;
+    margin-top: 20px;
 }
 
 a, .btn-link:hover {
